@@ -1,0 +1,49 @@
+.textEditor {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.label {
+	margin: 0;
+}
+
+.editor {
+	border-radius: 0.5rem;
+	border: 1px solid #ccc;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.actions {
+	align-items: center;
+	background-color: #eceff1;
+	border-radius: 0.5rem 0.5rem 0 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-bottom: 0.25rem;
+	overflow: hidden;
+}
+
+.action {
+	border: none;
+	cursor: pointer;
+	height: 2.25rem;
+	width: 2.25rem;
+}
+
+.action:hover {
+	background-color: #cfd8dc;
+}
+
+.underlined {
+	margin: 0;
+	text-decoration: underline;
+}
+
+.field {
+	height: 19rem;
+	padding: 1rem;
+}
